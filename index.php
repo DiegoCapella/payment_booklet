@@ -19,6 +19,7 @@
           <!-- Vendedor -->
           <div class="col-md-6 col-sm-12 text-left">
             <h3 class="text-center">Vendedor</h3>
+            <hr>
             <div class="form-row mt-4">
               <div class="form-group col">
                 <label for="">Nome</label>
@@ -47,6 +48,7 @@
           <!-- Cliente -->
           <div class="col-md-6 col-sm-12 text-left">
             <h3 class="text-center">Cliente</h3>
+            <hr>
             <div class="form-row mt-4">
               <div class="form-group col">
                 <label for="">Nome</label>
