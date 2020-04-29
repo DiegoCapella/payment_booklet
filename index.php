@@ -109,12 +109,17 @@
             </div>
           </div>
         </div>
+        <hr>
+        <div class="text-center my-4">
+          <button type="submit" class="btn btn-success">Gerar</button>
+        </div>
       </form>
     </div>
   </main>
 
-  <footer>
-
+  <footer class="bg-light text-center py-3">
+    <p class="mb-0 ">&copy 2020 - Diego Capella Dev.</p>
+    <a href="https://github.com/DiegoCapella">Github</a>
   </footer>
 
 
