@@ -23,19 +23,19 @@
             <div class="form-row mt-4">
               <div class="form-group col">
                 <label for="">Nome</label>
-                <input type="text" class="form-control form-control-sm" name="nome_empresa" required placeholder="Nome da Empresa ou Vendedor">
+                <input name="nome_empresa" type="text" class="form-control form-control-sm" required placeholder="Nome da Empresa ou Vendedor">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col">
                 <label for="">Endereço</label>
-                <input type="text" class="form-control form-control-sm" name="nome_empresa" required placeholder="Rua A, 123, Centro, Cidade - UF">
+                <input name="endereco_empresa" type="text" class="form-control form-control-sm" required placeholder="Rua A, 123, Centro, Cidade - UF">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col">
                 <label for="">Telefone</label>
-                <input type="text" class="form-control form-control-sm" name="nome_empresa" required placeholder="75 99999-9999">
+                <input name="tel_empresa" type="text" class="form-control form-control-sm" required placeholder="75 99999-9999">
               </div>
             </div>
             <div class="form-row">
@@ -52,37 +52,37 @@
             <div class="form-row mt-4">
               <div class="form-group col">
                 <label for="">Nome</label>
-                <input type="text" class="form-control form-control-sm" name="nome_empresa" required placeholder="Nome da Empresa ou Vendedor">
+                <input name="nome_cliente" type="text" class="form-control form-control-sm" required placeholder="Nome da Empresa ou Vendedor">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col">
                 <label for="">Endereço</label>
-                <input type="text" class="form-control form-control-sm" name="nome_empresa" required placeholder="Rua A, 123, Centro, cidade - UF">
+                <input name="endereco_cliente" type="text" class="form-control form-control-sm" required placeholder="Rua A, 123, Centro, cidade - UF">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col">
                 <label for="">CPF / CNPJ</label>
-                <input type="text" class="form-control form-control-sm" name="nome_empresa" required placeholder="123.456.789-01">
+                <input name="cpf_cliente" type="text" class="form-control form-control-sm" required placeholder="123.456.789-01">
               </div>
               <div class="form-group col">
                 <label for="">Valor da parcela</label>
-                <input type="text" class="form-control form-control-sm" name="nome_empresa" required placeholder="R$ 10,99">
+                <input name="valor_parc" type="text" class="form-control form-control-sm" required placeholder="R$ 10,99">
               </div>
               <div class="form-group col">
                 <label for="">Quantidade de parcelas</label>
-                <input type="number" class="form-control form-control-sm" name="nome_empresa" required placeholder="2">
+                <input name="qtd_parc" type="number" class="form-control form-control-sm" required value="2">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col">
                 <label for="">Dia de vencimento</label>
-                <input type="number" class="form-control form-control-sm" name="nome_empresa" required placeholder="5">
+                <input name="dia_venc" type="number" class="form-control form-control-sm" required value="5">
               </div>
               <div class="form-group col">
-                <label for="">Mês de início</label>
-                <select name="" id="" class="form-control form-control-sm">
+                <label for="">Mês</label>
+                <select name="mes_venc" class="form-control form-control-sm">
                   <option value="1">Janeiro</option>
                   <option value="2">Fevereiro</option>
                   <option value="3">Março</option>
@@ -99,7 +99,7 @@
               </div>
               <div class="form-group col">
                 <label for="">Ano</label>
-                <select name="" id="" class="form-control form-control-sm">
+                <select name="ano_venc" class="form-control form-control-sm">
                   <option value="2016">2020</option>
                   <option value="2017">2021</option>
                   <option value="2018">2022</option>
@@ -120,7 +120,7 @@
   </main>
 
   <footer class="bg-light text-center py-3">
-    <p class="mb-0 ">&copy 2020 - Diego Capella Dev.</p>
+    <p class="mb-0 ">&copy 2020 - <a href="https://diegocapelladev.com">Diego Capella Dev.</a> </p>
     <a href="https://github.com/DiegoCapella">Github</a>
   </footer>
 
