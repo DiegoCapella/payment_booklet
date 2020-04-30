@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<heade class="text-center">
+  <header class="text-center">
     <h1 class="text-primary py-4 display-4">Gere seu Carnê</h1>
   </header>
   
