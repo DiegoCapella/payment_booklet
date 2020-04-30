@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="Pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <heade class="text-center">
+<heade class="text-center">
     <h1 class="text-primary py-4 display-4">Gere seu Carnê</h1>
   </header>
   
@@ -123,7 +123,6 @@
     <p class="mb-0 ">&copy 2020 - <a href="https://diegocapelladev.com">Diego Capella Dev.</a> </p>
     <a href="https://github.com/DiegoCapella">Github</a>
   </footer>
-
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
